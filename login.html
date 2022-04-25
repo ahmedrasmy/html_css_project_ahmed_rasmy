@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!--Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awsome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Template Css File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="login">
+      <div class="container">
+        <br /><br />
+        <div class="login-details">
+          <div class="logo">
+            <a href="#" class="logo"> <span>D</span>ot<span>C</span>om</a>
+          </div>
+          <form action="./index.html">
+            <div class="email main-input">
+              <p>email address</p>
+              <i class="fa-solid fa-envelope"></i>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Username@gmail.com"
+                required
+              />
+            </div>
+            <div class="password main-input">
+              <p>password</p>
+              <i class="fa-solid fa-lock"></i>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="........"
+                required
+                minlength="4"
+              />
+            </div>
+
+            <input type="submit" class="submit" value="Login" />
+
+            <div class="forget">
+              <a href="./register.html">signup</a>
+              <a href="#">Forget Password?</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
